@@ -11,12 +11,11 @@
 
         <link rel="stylesheet" type="text/css" href="../lib/Semantic-UI-CSS-master/semantic.min.css">
         <link rel="stylesheet" type="text/css" href="css/custom.css">
-
     </head>
 
     <body>
-    <div id="login"></div>
-    <div class="ui clearing segment">
+    <div id="navbar"></div>
+    <div class="ui clearing segment home-container">
         <div class="ui three column grid">
             <div class="row">
                 <div class="column"></div>
@@ -38,8 +37,10 @@
         </div>
     </div>
     </body>
+    <script src="../lib/jquery-3.3.1.min.js"></script>
+    <script src="../lib/Semantic-UI-CSS-master/semantic.js"></script>
     <script>
         $(function(){
-        $("#login").load("./navbar.html");
+        $("#navbar").load("./navbar.html");
     });</script>
 </html>
