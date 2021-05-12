@@ -15,14 +15,12 @@
     </head>
 
     <body>
-    <div class="ui clearing segment">
+    <div id="navbar"></div>
+    <div class="ui clearing segment home-container">
         <div class="ui three column grid">
             <div class="row">
-
                 <div class="column"></div>
                 <div class="column">
-                    <p>Don't have an account yet ? Go to <a class="right floated" href="./signup.html">signup</a></p>
-
                     <form class="ui form" action="./addData" method="GET">
                         <h3 class="ui dividing header">Login</h3>
                         <div class="field">
@@ -42,8 +40,12 @@
             </div>
         </div>
     </div>
+
+    </body>
     <script src="../lib/jquery-3.3.1.min.js"></script>
     <script src="../lib/Semantic-UI-CSS-master/semantic.js"></script>
-    <script src="../js/signup_validation.js"></script>
-    </body>
+    <script>
+        $(function(){
+        $("#navbar").load("./navbar.html");
+    });</script>
 </html>
