@@ -18,8 +18,11 @@
     <div class="ui clearing segment">
         <div class="ui three column grid">
             <div class="row">
+
                 <div class="column"></div>
                 <div class="column">
+                    <p>Don't have an account yet ? Go to <a class="right floated" href="./signup.html">signup</a></p>
+
                     <form class="ui form" action="./addData" method="GET">
                         <h3 class="ui dividing header">Login</h3>
                         <div class="field">
@@ -30,12 +33,17 @@
                             <label>Password</label>
                             <input type="password" name="password" placeholder="Password">
                         </div>
-                        <button class="ui button" type="submit" >Submit</button>
+
+                            <button class="ui secondary button" type="submit" >Submit</button>
+                            <button class="ui button" >Cancel</button>
+
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
+    <script src="../lib/jquery-3.3.1.min.js"></script>
+    <script src="../lib/Semantic-UI-CSS-master/semantic.js"></script>
+    <script src="../js/signup_validation.js"></script>
     </body>
 </html>
