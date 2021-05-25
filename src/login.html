@@ -10,7 +10,7 @@
         <title>Grid Example - Semantic</title>
 
         <link rel="stylesheet" type="text/css" href="../lib/Semantic-UI-CSS-master/semantic.min.css">
-        <link rel="stylesheet" type="text/css" href="css/custom.css">
+        <link rel="stylesheet" type="text/css" href="../css/custom.css">
 
     </head>
 
@@ -21,6 +21,8 @@
             <div class="row">
                 <div class="column"></div>
                 <div class="column">
+                    <p>You don't have an account yet ? Go to <a href="./signup.html">Signup page</a></p>
+
                     <form class="ui form" action="./addData" method="GET">
                         <h3 class="ui dividing header">Login</h3>
                         <div class="field">
@@ -47,5 +49,6 @@
     <script>
         $(function(){
         $("#navbar").load("./navbar.html");
-    });</script>
+    });
+    </script>
 </html>
